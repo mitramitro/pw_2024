@@ -1,0 +1,280 @@
+body	{
+	margin: 0;
+	padding:0;
+	font-family: "Epilogue"
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+header	{
+	background-color:#eee;
+	position: fixed;
+	width: 100%;
+	height: 72px;
+	top: 0;
+	z-index: 9999;
+}
+li {
+	list-style: none;
+}
+.wadah {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: inherit;
+	padding: 0 20px;
+	max-width: 1280px;
+	margin: auto;
+}
+.wadah-menu	ul {
+	display: flex;
+	padding: 0;
+}
+.wadah-menu ul li {
+	padding-left: 25px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.wadah-menu ul li:first-child {
+	padding-left: 0;
+}
+a:hover {
+	color: #FFD46E;
+	transition: all 0.2s;
+}
+main {
+	top: 72px;
+	position: relative;
+}
+.wadah-hero {
+	width: 100%;
+	height: 900px;
+	background-image: url("../images/hiro1.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.wadah-konten {
+	width: 100%;
+	text-align: center;
+	padding-top: 80px;
+}
+.wadah-konten h1 {
+	color: white;
+	font-size: 80px;
+	font-weight: bold;
+}
+.wadah-konten h2 {
+	color: white;
+	font-size: 75px;
+}
+.tombol {
+	font-size: 30px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: transparent;
+	color: white;
+	padding: 10px 25px;
+	font-family: "Epilogue";
+	font-weight: bold;
+	transition: all 0.3s;
+}
+.tombol:hover {
+	color: #FFD46E;
+	border-color: #FFD46E;
+	transition: all 0.2s;
+}
+.wadah-utama {
+	position: relative;
+	top: 10px;
+}
+.bungkus {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0;
+	padding: 50px 0;
+}
+.isibungkus{
+	margin: 15px 10px 15px 10px;
+	padding:20px;
+	background-color: #efefef;
+	border-radius: 10px;
+	font-family: "Epilogue";
+	font-size: 17px;
+	width: 250px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	line-height: 40px;
+	box-shadow: 0 5px 15px -5px #0000007f;
+}
+.angka {
+	font-size: 40px;
+	font-weight: bold;
+}
+.konten {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+}
+.isikonten {
+	margin: 30px 0;
+	padding: 0;
+	width: 650px;
+}
+.isikonten.tulisan {
+	padding-right: 20px;
+	margin-right:  30px;
+}
+
+h3 {
+	font-family: "Epilogue";
+	font-size: 35px;
+	color: #57528F;
+	margin:0;
+	padding: 0 0 10px 0;
+}
+.isikonten.tulisan p {
+	font-family: "Epilogue";
+	font-size: 15px;
+	line-height: 30px;
+}
+.isikonten.gambar {
+	width: 500px;
+	box-shadow: 0 10px 15px -5px #0000009f;
+}
+.isikonten.gambar img {
+	width: 500px;
+}
+.beda {
+	font-weight: bold;
+	font-size: 20px
+}
+.tumbol {
+	font-size: 25px;
+	border: 2px solid #57528F;
+	border-radius: 10px;
+	background-color: #57528F;
+	color: white;
+	padding: 15px 20px;
+	margin: 0;
+	font-family: "Epilogue";
+	font-weight: bold;
+	transition: all 0.3s;
+	position: absolute;
+}
+.anggota {
+	top: 10px;
+	position: relative;
+}
+.judul {
+	text-align: center;
+	font-family: "Epilogue";
+	color: #57528F;
+	font-size: 35px;
+	font-weight: bold;
+	border-bottom: solid 3px #57528F;
+	width: 65%;
+	padding-bottom: 20px;
+}
+.isianggota {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0;
+	padding: 0;
+}
+.karyawan {
+	margin: 15px 10px 15px 10px;
+	padding:20px;
+	font-family: "Epilogue";
+	font-size: 15px;
+	width: 300px;
+	height: 200px;
+	text-align: center;
+	line-height: 15px;
+}
+
+.tebalin{
+	font-weight: bold;
+	font-size: 25px
+}
+.anggota.bawah {
+	margin: 0px;
+	padding: 0px;
+}
+.anggota.bawah:before {
+	content: "";
+	border-bottom: solid 3px #57528F;
+	width: 900px;
+	position: absolute;
+	right: 0;
+	bottom: -50px;
+}
+footer {
+	display: flex;
+	width: 100%;
+	background-color: #999;
+	position: relative;
+	top: 150px;
+	justify-content: center;
+	align-items: center;
+}
+.wadahbawah {
+	display: flex;
+	width: 100%;
+	max-width: 1280px;
+	padding: 0 20px;
+}
+.isibawah {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 40px 0;
+	flex-grow: 1;
+	flex-shrink: 1;
+	width: auto;
+}
+.logobawah {
+	color: white;
+}
+.logobawah img {
+	width: 100px;
+}
+.menubawah ul {
+	display: flex;
+	padding: 0;
+}
+.menubawah img {
+	width: 30px;
+	margin-right: 10px;
+}
+.navigasiftr {
+	line-height: 30px;
+	font-size: 16;
+}
+.navigasiftr ul {
+	margin: 0;
+	padding: 0;
+}
+.navigasiftr a {
+	color: white;
+}
+.navigasiftr a:hover {
+	color: #FFD46E;
+}
+.isibawah:first-child {
+	flex-basis: 50%;
+}
+.wadah-menu-mobile {
+	display: none;
+	cursor: pointer;
+}

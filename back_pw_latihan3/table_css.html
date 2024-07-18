@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar membuat table</title>
+    <style>
+      tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- penambahan border radius pada table harus ditambahkan property overflow:hidden karena sebenarnya table masih memiliki batas persegi sehingga dengan overflow hidden memastikan batas area ditetapkan diatas table akan berfungsi dengan
+    benar -->
+    <table style="border-collapse: collapse; margin: 25px 0; border-radius: 5px 5px 5px 5px; overflow: hidden; box-shadow: 0 0 20px rgb(0, 0, 0, 0.5)">
+      <thead>
+        <tr style="background-color: #009879; color: aliceblue">
+          <th style="padding: 12px 25px">Nama</th>
+          <th>Alamat</th>
+          <th>No Hp</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 12px 25px; border-bottom: 1px solid #dddddd">Budi</td>
+          <td style="padding: 12px 25px; border-bottom: 1px solid #dddddd">Sindang</td>
+          <td style="padding: 12px 25px; border-bottom: 1px solid #dddddd">085612334234</td>
+        </tr>
+        <tr>
+          <td style="padding: 12px 25px; border-bottom: 1px solid #dddddd">Budi</td>
+          <td style="padding: 12px 25px; border-bottom: 1px solid #dddddd">Sindang</td>
+          <td style="padding: 12px 25px; border-bottom: 1px solid #dddddd">085612334234</td>
+        </tr>
+        <tr>
+          <td style="padding: 12px 25px; border-bottom: 1px solid #dddddd">Budi</td>
+          <td style="padding: 12px 25px; border-bottom: 1px solid #dddddd">Sindang</td>
+          <td style="padding: 12px 25px; border-bottom: 1px solid #dddddd">085612334234</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

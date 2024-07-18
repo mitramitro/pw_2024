@@ -1,0 +1,157 @@
+/* TABLET */
+@media all and (max-width: 1024px)  {
+	.hero {
+		background-color: #999;
+		width: 100%;
+		height: 60vw;
+	}
+}
+
+/* SMARTPHONE */
+@media (max-width: 800px)  {
+	.homelogo img {
+		width: 45px;
+	}
+	.hero {
+		background-color: #999;
+		width: 100%;
+		height: 60vw;
+	}
+	.slider.heading {
+		margin: 20px 0 13px 0;
+		padding: 0 50px;
+		font-size: 50px;
+	}
+	.slider.subheading {
+		margin: 0 0 10px 0;
+		padding: 0 50px;
+		font-size: 25px;
+	}
+	.slider.cta {
+		margin-top: 22px;
+		padding: 7px 16px;
+		font-size: 20px;
+		border-width: 1.5px !important;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	.mob-menu {
+		height: inherit;
+		display: flex;
+		align-items: center;
+	}
+	.navigation {
+		display: none;
+    	z-index: 999;
+		height: 0vh;
+	}
+	.navigation.open {
+		display: block;
+		height: inherit;
+		position: absolute;
+		align-items: flex-start;
+		top: 59px;
+		left: 0;
+		padding: 0;
+		text-align: center;
+		width: 100%;
+		height: 100vh;
+		overflow: hidden;
+		transition: all 0.2s;
+	}
+	.navigation ul {
+		background-color: #fff;
+		width: inherit;
+		display: block;
+		position: relative;
+		padding: 0;
+		box-shadow: 0 50px 70px 0 #0002;
+	}
+	.navigation ul li {
+		margin: 0;
+		border-bottom: 1px solid #ccc;
+	}
+	.navigation ul li a {
+		display: inline-block;
+		width: 100%;
+		padding: 15px;
+	}
+	.cta-order {
+		margin: 0;
+		padding: 0;
+		background-color: unset;
+		box-shadow: none;
+	}
+	.cta-order:hover {
+		background-color: unset;
+		box-shadow: none;
+	}
+	.navigation ul li:last-child {
+		color: white !important;
+		background-color: #2E8B5C;
+		border: none;
+		transition: all 0.2s;
+	}
+	.navigation ul li:last-child:hover {
+		background-color: #37A66F;
+	}
+	.satu .section-wrapper {
+		padding: 50px 50px;
+	}
+	.desain {
+		width: 42%;
+	}
+	.footer-wrap {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.footer-homelogo {
+		align-items: center;
+	}
+	.footer-homelogo img {
+		width: 70px;
+	}
+	.footer-homelogo p {
+		font-size: 18px;
+		line-height: 23px;
+	}
+	.footer-nav {
+		width: 100%;
+		border-top: 1px solid #fff5;
+		margin: 0;
+		padding: 10px 0;
+		align-items: center;
+	}
+	.footer-nav ul {
+		padding: 0;
+	}
+	.slideshow-wrapper, .blog-slider__container, .slider.content {
+		height: 35vh !important;
+	}
+	.popupbox-container {
+		max-width: 275px;
+	}
+	.popup-socmed ul {
+		flex-wrap: wrap;
+	}
+	.popup-socmed li {
+		padding: 15px 0;
+	}
+	.socmed img {
+		width: 32px;
+    	padding: 10px 10px 0 10px;
+		opacity: 0.8;
+		transition: all 0.2s;
+	}
+	.dua .section-wrapper {
+		padding: 40px 0;
+	}
+	.dua .section-wrapper p {
+		padding: 0 30px;
+	}
+	.desain .deskripsi {
+		font-size: 12px;
+	}
+}

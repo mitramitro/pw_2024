@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lokagenda - Rencanakan Impianmu</title>
+	<link rel="stylesheet" type="text/css" href="css/slideranim.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/resp.css">
+	<link rel="stylesheet" type="text/css" href="css/slidercontent.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<nav class="header-wrap">
+			<div class="homelogo">
+				<a href="index.html"><img src="img/logo.svg" title="Lokagenda"></a>
+			</div>
+			<div class="mob-menu" onclick="menuToggle();">
+				<img src="img/menu.svg" width="25">
+			</div>
+			<div class="navigation">
+				<ul>
+					<li><a data-modal="popupbox-tentang">Tentang</a></li>
+					<li><a data-modal="popupbox-keunggulan">Keunggulan</a></li>
+					<li><a data-modal="popupbox-kontak">Kontak</a></li>
+					<li><a data-modal="popupbox-pesan" class="cta-order">Pesan</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="heroslider">
+			<div class="blog-slider__container">
+				<div class="blogSlides fade">
+				<div class="blog-slider__numbertext">1 / 3</div>
+				<div class="slideshow-wrapper">
+					<div class="slider content one dim">
+						<h1 class="slider heading">100% Milikmu</h1>
+						<h2 class="slider subheading">Atur Rencana dengan Gayamu</h2>
+						<a data-modal="popupbox-pesan" class="slider cta light">Pesan Sekarang</a>
+					</div>
+				</div>
+				<div class="blog-slider__text">100% Milikmu</div>
+				</div>
+		
+				<div class="blogSlides fade">
+				<div class="blog-slider__numbertext">2 / 3</div>
+				<div class="slideshow-wrapper"><div class="slider content two"></div></div>
+				<div class="blog-slider__text">Cover Anti Minder</div>
+				</div>
+		
+				<div class="blogSlides fade">
+				<div class="blog-slider__numbertext">3 / 3</div>
+				<div class="slideshow-wrapper"><div class="slider content three"></div></div>
+				<div class="blog-slider__text">Packaging Hebring</div>
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+		</div>
+		<br>
+
+		<div class="blogSlider__dots" style="text-align:center">
+		<span class="blogSlider__dots--dot" onclick="currentSlide(1)"></span> 
+		<span class="blogSlider__dots--dot" onclick="currentSlide(2)"></span> 
+		<span class="blogSlider__dots--dot" onclick="currentSlide(3)"></span> 
+		</div>
+		<div class="section satu">
+			<div class="section-wrapper">
+				<h1>Rencanakan Impianmu</h1>
+				<p>
+					<span class="empasis">Lokagenda</span> adalah buku agenda dan buku sketsa yang customizable banget karena cover dan packagingnya bisa dicustom sesuai keinginan. Buku agenda <span class="empasis">Lokagenda</span> idealnya dipakai untuk mencatat hal pribadi apapun, serta buku sketsa <span class="empasis">Lokagenda</span> idealnya digunakan untuk menggambar ide-ide apapun. Akan tetapi, karena bisa dicustom sesuai keinginan, dijadikan sebagai kado untuk keluarga atau kerabat di hari spesial mereka pun juga oke!
+				</p>
+				<p>
+					Tunggu apa lagi? Ayo dapatkan buku agenda dan buku sketsa dengan cover yang benar-benar kamu banget dan mulai rencanakan impianmu bersama <span class="empasis">Lokagenda</span>! Tulis, gambar, cipta, dan reka dalam setiap lembarannya.
+				</p>
+				<br>
+				<p>
+					<span class="empasis">Lokagenda</span>,<br>
+					Rencanakan Impianmu!
+				</p>
+			</div>
+		</div>
+		<div class="section dua" id="desain">
+			<div class="section-wrapper">
+				<h1>Pilihan Desain</h1>
+				<p>
+					<span class="empasis">Lokagenda</span> bisa dipesan dengan cover custom desain kamu sendiri agar lebih mencerminkan kamu sebagai pemiliknya. Tapi, kalau kamu masih belum mempersiapkan desainmu, <span class="empasis">Lokagenda</span> menyediakan beberapa desain yang bisa kamu pilih.
+				</p>
+				<div class="desain-wrapper">
+					<div class="desain">
+						<div class="gambar">
+							<img src="img/pr-autumn.png">
+						</div>
+						<div class="nama">Autumn</div>
+						<div class="deskripsi">Warna ceria daun musim gugur</div>
+					</div>
+					<div class="desain">
+						<div class="gambar">
+							<img src="img/pr-bandung.png">
+						</div>
+						<div class="nama">Bandung</div>
+						<div class="deskripsi">Jembatan Pasupati yang Ikonik</div>
+					</div>
+					<div class="desain">
+						<div class="gambar">
+							<img src="img/pr-blocks.png">
+						</div>
+						<div class="nama">Blocks</div>
+						<div class="deskripsi">Komposisi balok abstrak</div>
+					</div>
+					<div class="desain">
+						<div class="gambar">
+							<img src="img/pr-catparfait.png">
+						</div>
+						<div class="nama">Cat Parfait</div>
+						<div class="deskripsi">Ketika kucing dan parfait berpadu</div>
+					</div>
+					<div class="desain">
+						<div class="gambar">
+							<img src="img/pr-flowery.png">
+						</div>
+						<div class="nama">Flowery</div>
+						<div class="deskripsi">Taman bunga penuh warna</div>
+					</div>
+					<div class="desain">
+						<div class="gambar">
+							<img src="img/pr-forest.png">
+						</div>
+						<div class="nama">Forest</div>
+						<div class="deskripsi">Belantara konifer dari atas</div>
+					</div>
+					<div class="desain">
+						<div class="gambar">
+							<img src="img/pr-mathematics.png">
+						</div>
+						<div class="nama">Mathematics</div>
+						<div class="deskripsi">Elemen ilmu eksak fundamental</div>
+					</div>
+					<div class="desain">
+						<div class="gambar">
+							<img src="img/pr-memphis.png">
+						</div>
+						<div class="nama">Memphis</div>
+						<div class="deskripsi">Gaya lama yang kembali tenar</div>
+					</div>
+					<div class="desain">
+						<div class="gambar">
+							<img src="img/pr-redglory.png">
+						</div>
+						<div class="nama">Red Glory</div>
+						<div class="deskripsi">Pesona warna merah nan mewah</div>
+					</div>
+					<div class="desain">
+						<div class="gambar">
+							<img src="img/pr-sunset.png">
+						</div>
+						<div class="nama">Sunset</div>
+						<div class="deskripsi">Momen indah di batas hari</div>
+					</div>
+					<div class="desain">
+						<div class="gambar">
+							<img src="img/pr-tropical.png">
+						</div>
+						<div class="nama">Tropical</div>
+						<div class="deskripsi">Hijau hijau eksentrik</div>
+					</div>
+					<div class="desain">
+						<div class="gambar">
+							<img src="img/pr-wavy.png">
+						</div>
+						<div class="nama">Wavy</div>
+						<div class="deskripsi">Riak syahdu air laut</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section tiga">
+			<div class="section-wrapper">
+				<h1>Pesan Buku Agendamu Sekarang!</h1>
+				<p>
+					Berminat untuk memiliki <span class="empasis">Lokagenda</span> yang 100% milikmu? Kamu bisa memesannya sekarang juga dengan menekan tombol di bawah ini:
+				</p>
+				<br>
+				<a href="https://wa.me/6285322647754?text=Halo,%20saya%20mau%20pesan%20Lokagenda%21" target="_blank" class="pesan-wa">Pesan Sekarang</a>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<nav class="footer-wrap">
+			<div class="footer-homelogo">
+				<a href="index.html"><img src="img/logo.svg" title="Lokagenda"></a>
+				<p><b>Lokagenda</b><br>
+					PT Loka Gagasan Mulia
+				</p>
+				<div class="socmed">
+					<ul>
+						<li><a href="https://facebook.com/lokagenda" title="Facebook Lokagenda" target="_blank"><img src="img/sc-fb.svg"></a></li>
+						<li><a href="https://instagram.com/lokagenda" title="Instagram Lokagenda" target="_blank"><img src="img/sc-ig.svg"></a></li>
+						<li><a href="https://twitter.com/lokagenda" title="Twitter Lokagenda" target="_blank"><img src="img/sc-tw.svg"></a></li>
+						<li><a href="mailto:lokagenda.id@gmail.com" title="Email Lokagenda" target="_blank"><img src="img/sc-ml.svg"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-nav">
+				<ul>
+					<li><a href="#desain">Desain Lokagenda</a></li>
+					<li><a data-modal="popupbox-keunggulan">Keunggulan Lokagenda</a></li>
+					<li><a href="#" onclick="alert('Belum diimplementasikan.');">Daftar Harga</a></li>
+					<li><a href="#" onclick="alert('Belum diimplementasikan.');">Hitung Ongkir</a></li>
+				</ul>
+			</div>
+			<div class="footer-nav">
+				<ul>
+					<li><a data-modal="popupbox-tentang">Tentang Lokagenda</a></li>
+					<li><a data-modal="popupbox-kontak">Kontak Kami</a></li>
+					<li><a href="#" onclick="alert('Belum diimplementasikan.');">Kebijakan Privasi</a></li>
+					<li><a href="#" onclick="alert('Belum diimplementasikan.');">Syarat dan Ketentuan</a></li>
+				</ul>
+			</div>
+		</nav>
+	</footer>
+	<div class="popupbox" id="popupbox-tentang">
+		<div class="popupbox-bg popupbox-exit"></div>
+		<div class="popupbox-container">
+			<button class="popupbox-close popupbox-exit">&times;</button>
+			<h1>Tentang Lokagenda</h1>
+			<p>
+				<span class="empasis">Lokagenda</span> adalah buku agenda dan buku sketsa yang cover dan packagingnya bisa dicustom sesuai keinginan. Idealnya dipakai untuk mencatat dan menggambar. Tetapi, karena bisa dicustom sesuai keinginan, dijadikan sebagai kado untuk keluarga atau kerabat pun juga bisa.
+			</p>
+		</div>
+	</div>
+	<div class="popupbox" id="popupbox-pesan">
+		<div class="popupbox-bg popupbox-exit"></div>
+		<div class="popupbox-container">
+			<button class="popupbox-close popupbox-exit">&times;</button>
+			<h1>Pesan Lokagenda</h1>
+			<p>
+				Berminat untuk memiliki <span class="empasis">Lokagenda</span> yang 100% milikmu? Kamu bisa memesannya sekarang juga dengan menekan tombol di bawah ini:
+			</p>
+			<br>
+			<a href="https://wa.me/6285322647754?text=Halo,%20saya%20mau%20pesan%20Lokagenda%21" target="_blank" class="pesan-wa">Pesan Sekarang</a>
+		</div>
+	</div>
+	<div class="popupbox" id="popupbox-kontak">
+		<div class="popupbox-bg popupbox-exit"></div>
+		<div class="popupbox-container">
+			<button class="popupbox-close popupbox-exit">&times;</button>
+			<h1>Kontak Lokagenda</h1>
+			<div class="popup-socmed">
+				<ul>
+					<li><a href="https://facebook.com/lokagenda" title="Facebook Lokagenda" target="_blank"><img src="img/sc-fb.svg"></a>Facebook</li>
+					<li><a href="https://instagram.com/lokagenda" title="Instagram Lokagenda" target="_blank"><img src="img/sc-ig.svg"></a>Instagram</li>
+					<li><a href="https://twitter.com/lokagenda" title="Twitter Lokagenda" target="_blank"><img src="img/sc-tw.svg"></a>Twitter</li>
+					<li><a href="mailto:lokagenda.id@gmail.com" title="Email Lokagenda" target="_blank"><img src="img/sc-ml.svg"></a>Email</li>
+				</ul>
+			</div>
+			<br>
+		</div>
+	</div>
+	<div class="popupbox" id="popupbox-keunggulan">
+		<div class="popupbox-bg popupbox-exit"></div>
+		<div class="popupbox-container">
+			<button class="popupbox-close popupbox-exit">&times;</button>
+			<h1>Keunggulan Lokagenda</h1>
+			<div class="popup-socmed fitur">
+				<ul>
+					<li><img src="img/ft-palette.svg">Cover Custom</li>
+					<li><img src="img/ft-timetable.svg">Planner Bulanan</li>
+					<li><img src="img/ft-pattern.svg">Pilihan Motif</li>
+					<li><img src="img/ft-packaging.svg">Packaging Custom</li>
+				</ul>
+			</div>
+			<br>
+		</div>
+	</div>
+<script type="text/javascript" src="js/operate.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+.slider.one {left: calc(100% * 0); background-image: linear-gradient(to right, #0004, #0004), url("../img/slider1-d.jpg");}
+@media (max-width: 1000px) {.slider.one {background-image: linear-gradient(to right, #0004, #0004), url("../img/slider1-m.jpg");}}
+
+.slider.two {left: calc(100% * 1); background-image: url("../img/slider2-d.jpg");}
+@media (max-width: 1000px) {.slider.two {background-image: url("../img/slider2-m.jpg");}}
+
+.slider.three {left: calc(100% * 2); background-image: url("../img/slider3-d.jpg");}
+@media (max-width: 1000px) {.slider.three {background-image: url("../img/slider3-m.jpg");}}

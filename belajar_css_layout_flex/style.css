@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #ffd166; */
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.color1 {
+  background-color: #ef476f;
+}
+
+.color2 {
+  background-color: #ffd166;
+}
+
+.color3 {
+  background-color: #06d6a0;
+}

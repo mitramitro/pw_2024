@@ -1,0 +1,135 @@
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+} /*# sourceMappingURL=style.css.map */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col1 {
+  width: 5.3%; /* (100%/(12/1))-3% */
+  margin: 1.5%;
+}
+.col2 {
+  width: 13.6%; /* (100%/(12/2))-3% */
+  margin: 1.5%;
+}
+.col3 {
+  width: 22%; /* (100%/(12/3))-3% */
+  margin: 1.5%;
+}
+.col4 {
+  width: 30.3%; /* (100%/(12/4))-3% */
+  margin: 1.5%;
+}
+.col5 {
+  width: 38.6%; /* (100%/(12/5))-3% */
+  margin: 1.5%;
+}
+.col6 {
+  width: 47%; /* (100%/(12/6))-3% */
+  margin: 1.5%;
+}
+
+.nav-container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  /* background-color: salmon; */
+  margin: auto;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1.5%;
+}
+
+.nav-brand h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-brand span {
+  color: darkred;
+}
+
+.nav-menu a {
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  /* background-color: aqua; */
+}
+
+.nav-menu a:hover {
+  color: darkred;
+}
+
+.img-responsive {
+  width: 50%;
+}
+
+.profile {
+}
+
+.btn {
+  background: darkred;
+  color: wheat;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+}
+.btn:hover {
+  color: white;
+  background: black;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.jc-center {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  padding: 5% 0;
+}
+.hero-desc h1 {
+  font-size: 2.5em;
+  line-height: 120%;
+}
+
+.hero-desc p {
+  line-height: 18%;
+  margin-bottom: 20px;
+}

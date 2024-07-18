@@ -1,0 +1,44 @@
+/* 
+      selector bisa tag, id dan class
+      selector{
+        property: value 
+      }
+    
+      */
+:root {
+  --warna1: #8ecae6;
+  --warna2: #219ebc;
+  --warna3: #023047;
+  --warna4: #ffb703;
+  --warna5: #fb8500;
+}
+
+body {
+  background-color: var(--warna3);
+  color: aliceblue;
+}
+
+.warna1 {
+  color: var(--warna1);
+}
+.warna2 {
+  color: var(--warna3);
+}
+.warna3 {
+  color: var(--warna3);
+}
+
+.warna4 {
+  color: var(--warna4);
+}
+.warna5 {
+  color: var(--warna5);
+}
+
+ffb703 .tebal {
+  font-weight: 600;
+}
+
+#menu_pertama {
+  color: rgb(210, 24, 24);
+}

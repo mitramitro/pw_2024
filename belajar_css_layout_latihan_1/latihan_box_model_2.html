@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contoh Latihan Box Model</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        padding: 20px;
+      }
+
+      .container {
+        width: 80%;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border: 2px solid #3498db;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .box {
+        background-color: #3498db;
+        color: #fff;
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #2980b9;
+        border-radius: 4px;
+      }
+
+      .box:last-child {
+        margin-bottom: 0;
+      }
+
+      .content {
+        background-color: #2ecc71;
+        color: #fff;
+        padding: 15px;
+        border: 1px solid #27ae60;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h2>Box 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet lobortis magna.</p>
+      </div>
+
+      <div class="box">
+        <h2>Box 2</h2>
+        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      </div>
+
+      <div class="content">
+        <h2>Content Box</h2>
+        <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+  </body>
+</html>
